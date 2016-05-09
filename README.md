@@ -9,11 +9,11 @@ Proyecto Programado 1 de Visualización de Información
 **Las estructuras jerárquicas fueron usadas en sistemas de gestión de datos, usadas para recetas índices ordenamientos, anidaciones y clasificaciones, esto debido a que son estructuras bastante eficientes para describir relaciones de los datos.**
 
 ######Parametros de configuración
-**Son relaciones de padre e hijo, los hijos deben tener un padre y pueden tener multiples hijos, los padres e hijos están atados, el padre tendrá una lista de indicadores de cada uno de sus hijos, y usan estas reglas:
--	M: N.
--	El caso en que un tipo de registros participa como hijo en más de un tipo VPH.
--	Pueden haber vínculos n-arios con más de dos registros participantes
-Existen ciertas restricciones, que serian ningún registro esté relacionada con una ocurrencia de registro padre, con excepción de los registros raíz, no puede existir, no puede existir un registro hijo si no está enlazado con un registro padre, un registro hijo tiene que duplicarse si tiene dos o más registros padres, un registro se puede eliminar independientemente de su padre, pero eliminar un padre causa la eliminación de todos los hijos, un registro solo puede tener un padre real, los demás son virtuales.**
+**Son relaciones de padre e hijo, los hijos deben tener un padre y pueden tener multiples hijos, los padres e hijos están atados, el padre tendrá una lista de indicadores de cada uno de sus hijos, y usan estas reglas:**
+**-	M: N.**
+**-	El caso en que un tipo de registros participa como hijo en más de un tipo VPH.**
+**-	Pueden haber vínculos n-arios con más de dos registros participantes**
+**Existen ciertas restricciones, que serian ningún registro esté relacionada con una ocurrencia de registro padre, con excepción de los registros raíz, no puede existir, no puede existir un registro hijo si no está enlazado con un registro padre, un registro hijo tiene que duplicarse si tiene dos o más registros padres, un registro se puede eliminar independientemente de su padre, pero eliminar un padre causa la eliminación de todos los hijos, un registro solo puede tener un padre real, los demás son virtuales.**
 
 **Información adquirida de:**
 [Office support](https://support.office.com/es-es/article/Obtener-informaci%C3%B3n-sobre-el-esquema-jer%C3%A1rquico-beda7357-b074-4c2b-887e-223ad2a9b2df) ,
