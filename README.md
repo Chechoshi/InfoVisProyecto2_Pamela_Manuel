@@ -10,9 +10,9 @@ Proyecto Programado 1 de Visualización de Información
 
 ######Parametros de configuración
 **Son relaciones de padre e hijo, los hijos deben tener un padre y pueden tener multiples hijos, los padres e hijos están atados, el padre tendrá una lista de indicadores de cada uno de sus hijos, y usan estas reglas:**
-**-	M: N.**
-**-	El caso en que un tipo de registros participa como hijo en más de un tipo VPH.**
-**-	Pueden haber vínculos n-arios con más de dos registros participantes**
+
+**M: N,el caso en que un tipo de registros participa como hijo en más de un tipo VPH, Pueden haber vínculos n-arios con más de dos registros participantes**
+
 **Existen ciertas restricciones, que serian ningún registro esté relacionada con una ocurrencia de registro padre, con excepción de los registros raíz, no puede existir, no puede existir un registro hijo si no está enlazado con un registro padre, un registro hijo tiene que duplicarse si tiene dos o más registros padres, un registro se puede eliminar independientemente de su padre, pero eliminar un padre causa la eliminación de todos los hijos, un registro solo puede tener un padre real, los demás son virtuales.**
 
 **Información adquirida de:**
